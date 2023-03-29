@@ -1,0 +1,26 @@
+{
+  "name": "estudos-william",
+  "version": "1.0.0",
+  "description": "estudos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index",
+    "dev": "nodemon modulos/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamvk27/heroes-honors-valorant-kda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamvk27/heroes-honors-valorant-kda/issues"
+  },
+  "homepage": "https://github.com/williamvk27/heroes-honors-valorant-kda#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "router": "^1.3.8"
+  }
+}

@@ -1,0 +1,20 @@
+
+
+function addJogador (Jogadores , nick , kills , death , assistence) {
+    
+ Jogadores.push({
+
+     nick : nick,
+
+     kills : kills,
+
+     death : death,
+
+     assistence : assistence     
+
+ })
+ console.log('jogador adicionado com sucesso')
+ 
+}
+
+module.exports = addJogador;
